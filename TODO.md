@@ -23,11 +23,11 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - FulDigitizationNotificationItemLetter: <mark>Customized very differently from UG's version, not sure what to keep. **Need furthur comparison.**</mark>
 - <mark>[currently Disabled]</mark>FulFinesFeesNotificationLetter: <mark>AFN CODE: Check if an email partner. If it is, we're trying to send more of an invoice letter; Added Omni Email Partner receipt; Handled AFN supported languages; **Updated institutions financial contact info.**</mark>
 - FulIncomingSlipLetter: <mark>Added a logic to choose from **"Annex SLN" or "Original Annex SLN (internal_note1)", not sure if we need?** Also more detailed infomation including chapter, volume, etc.</mark>
-- FulLostEmailLetter: AFNLetterNameTemplate added under footer.- Updated 2026-02-25
+- FulLostEmailLetter: AFNLetterNameTemplate added under footer. - Updated 2026-02-25
 - <mark>[currently Disabled]</mark>FulLostLoanLetter: Done. No significant update compared to UG's version.
 - <mark>[currently Disabled]</mark>FulLostLoanNotificationLetter: Done. No significant update compared to UG's version.
 - FulLostRefundFeeLoadnLetter: Done. No significant update compared to UG's version.
-- FulOutgoingEmailLetter: <mark>AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer.</mark>
+- FulOutgoingEmailLetter: AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer. - Updated 2026-02-25
 - FulOverdueAndLostLoanLetter: Done. No significant update compared to UG's version.
 - FulOverdueAndLostLoanNotificationLetter: Updated explanation texts. - Updated 2026-02-25
 - FulRenewEmailLetter: AFNLetterNameTemplate added under footer.- Updated 2026-02-25
@@ -47,7 +47,7 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - LendingRecallEmailLetter: <mark>Included "@Shipping cost", "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer.</mark>
 - LoanStatusNotice: Done. No significant update compared to UG's version.
 - OnHoldShelfLetter: Done. No significant update compared to UG's version. <mark>UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly?</mark>
-- OnHoldShelfReminderLetter: <mark>Added logic to check if it's EMAIL partner.</mark>
+- OnHoldShelfReminderLetter: Added logic to check if it's EMAIL partner. - Updated 2026-02-25
 - OverdueNoticeLetter: : Done. No significant update compared to UG's version.
 - QueryToPatronLetter: Done. No significant update compared to UG's version.
 - <mark>[currently Disabled]</mark>ResetPasswordLetter: Done. No significant update compared to UG's version.
