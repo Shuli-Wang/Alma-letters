@@ -16,7 +16,7 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - DocumentDeliveryNotificationLetter: <mark>Customized very differently from UG's version, not sure what to keep. UG's includes: **more details about the resource(Authur, Volume, etc); populate both local and ISO resource sharing; check about user's login method; Copyright Statement.**</mark>
 - EmailRecordsLetter: Done. No significant update compared to UG's version.
 - FineFeePaymentReceiptLetter: <mark>AFN-VERSION 1.8: Check if an email partner. If it is, we're trying to send more of an invoice letter. **Need to fill with LU's info.**</mark>
-- FulBorrowingInfoLetter: <mark>AFN footer template options(AFNAccount and AFNLastFooter ) replcaing footer.</mark>
+- FulBorrowingInfoLetter: AFN footer template options(AFNAccount and AFNLastFooter ) replcaing footer. - Updated 2026-02-25 
 - FulCancelEmailLetter: <mark>AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer.</mark>
 - FulCancelRequestLetter: <mark>Stop emails for converted to resource sharing,If the approval note is populated, don't show cancel_reason but the reject note.</mark>
 - FulDamagedEmailLetter: AFNLetterNameTemplate added under footer.- Updated 2026-02-25
@@ -29,7 +29,7 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - FulLostRefundFeeLoadnLetter: Done. No significant update compared to UG's version.
 - FulOutgoingEmailLetter: <mark>AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer.</mark>
 - FulOverdueAndLostLoanLetter: Done. No significant update compared to UG's version.
-- FulOverdueAndLostLoanNotificationLetter: <mark>Updated explanation texts.</mark>
+- FulOverdueAndLostLoanNotificationLetter: Updated explanation texts. - Updated 2026-02-25
 - FulRenewEmailLetter: AFNLetterNameTemplate added under footer.- Updated 2026-02-25
 
 2025.12.04
@@ -51,7 +51,7 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - OverdueNoticeLetter: : Done. No significant update compared to UG's version.
 - QueryToPatronLetter: Done. No significant update compared to UG's version.
 - <mark>[currently Disabled]</mark>ResetPasswordLetter: Done. No significant update compared to UG's version.
-- ResourceSharingReceiveSlipLetter: <mark>The letter in the system is mistakenly presenting unmatched XSL. **Update the whole letter with UG's version.**</mark>
+- ResourceSharingReceiveSlipLetter: The letter in the system is mistakenly presenting unmatched XSL. Update the whole letter with UG's version. - updated 2026-02-25
 - ResourceSharingReturnSlipLetter: Done. No significant update compared to UG's version.
 - ReturnReceiptLetter: <mark>Added logic to check if it's EMAIL partner.</mark>
 - SavedSearchesLetter: Done. No significant update compared to UG's version.
