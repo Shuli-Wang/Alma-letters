@@ -17,8 +17,8 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - EmailRecordsLetter: Done. No significant update compared to UG's version.
 - FineFeePaymentReceiptLetter: <mark>AFN-VERSION 1.8: Check if an email partner. If it is, we're trying to send more of an invoice letter. **Need to fill with LU's info.**</mark>
 - FulBorrowingInfoLetter: AFN footer template options(AFNAccount and AFNLastFooter ) replcaing footer. - Updated 2026-02-25 
-- FulCancelEmailLetter: <mark>AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer.</mark>
-- FulCancelRequestLetter: <mark>Stop emails for converted to resource sharing,If the approval note is populated, don't show cancel_reason but the reject note.</mark>
+- FulCancelEmailLetter: AFN-VERSION 1.0: more detailed library address added, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
+- FulCancelRequestLetter: Stop emails for converted to resource sharing,If the approval note is populated, don't show cancel_reason but the reject note. - Updated 2026-02-26
 - FulDamagedEmailLetter: AFNLetterNameTemplate added under footer.- Updated 2026-02-25
 - FulDigitizationNotificationItemLetter: <mark>Customized very differently from UG's version, not sure what to keep. **Need furthur comparison.**</mark>
 - <mark>[currently Disabled]</mark>FulFinesFeesNotificationLetter: <mark>AFN CODE: Check if an email partner. If it is, we're trying to send more of an invoice letter; Added Omni Email Partner receipt; Handled AFN supported languages; **Updated institutions financial contact info.**</mark>
@@ -34,14 +34,14 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 
 2025.12.04
 - FulRequestsReportLetter: <mark>Added "check service hour" notification. UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly?</mark>
-- FulReasourceRequestSlipLetter: <mark>Included "@item_barcode", "@isbn", "@imprint", "@move_to_library", "@request_type" and footer to the letter.</mark>
+- FulReasourceRequestSlipLetter: Included "@item_barcode", "@isbn", "@imprint", "@move_to_library", "@request_type" and footer to the letter. - Updated 2026-02-26
 - FulTransitSlipLetter: Done. No significant update compared to UG's version.
 - GeneralMessageEmailLetter: AFNLetterNameTemplate added under footer. - Updated 2026-02-25
 - HoldShelfExpiryDateUpdateLetter: <mark>Added logic to check if it's EMAIL partner, and updated French version. Also, UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to sync with that?</mark>
 - InterestedInLetter: <mark>Added a "Link to Resource". If keep this link, need to update to LU's link.</mark>
-- LenderChecked-inEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer.</mark>
-- LenderRejectEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer.</mark>
-- LenderRenewResponseEmailLetter: <mark>Included "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer.</mark>
+- LenderChecked-inEmailLetter: Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
+- LenderRejectEmailLetter: Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
+- LenderRenewResponseEmailLetter: Included "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
 - LenderShipEmailLetter: Included "@Due date" and "@Shipping cost" in the letter. - Updated 2026-02-26
 - LenderWillSupplyEmailLetter: Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
 - LendingRecallEmailLetter: Included "@Shipping cost", "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
