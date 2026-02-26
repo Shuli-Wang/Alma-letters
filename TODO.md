@@ -42,9 +42,9 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - LenderChecked-inEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer.</mark>
 - LenderRejectEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer.</mark>
 - LenderRenewResponseEmailLetter: <mark>Included "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer.</mark>
-- LenderShipEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter</mark>
-- LenderWillSupplyEmailLetter: <mark>Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer.</mark>
-- LendingRecallEmailLetter: <mark>Included "@Shipping cost", "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer.</mark>
+- LenderShipEmailLetter: Included "@Due date" and "@Shipping cost" in the letter. - Updated 2026-02-26
+- LenderWillSupplyEmailLetter: Included "@Due date" and "@Shipping cost" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
+- LendingRecallEmailLetter: Included "@Shipping cost", "@Province" and "@Postal code" in the letter, AFNLetterNameTemplate added under footer. - Updated 2026-02-26
 - LoanStatusNotice: Done. No significant update compared to UG's version.
 - OnHoldShelfLetter: Done. No significant update compared to UG's version. <mark>UG has Home Delivery & Curbside Pickup option, since we do not provide this service, there's no need to update accrodingly?</mark>
 - OnHoldShelfReminderLetter: Added logic to check if it's EMAIL partner. - Updated 2026-02-25
@@ -53,7 +53,7 @@ Working in Alphabetic Order. Changes need to be reviewed are highlighted and in 
 - <mark>[currently Disabled]</mark>ResetPasswordLetter: Done. No significant update compared to UG's version.
 - ResourceSharingReceiveSlipLetter: The letter in the system is mistakenly presenting unmatched XSL. Update the whole letter with UG's version. - updated 2026-02-25
 - ResourceSharingReturnSlipLetter: Done. No significant update compared to UG's version.
-- ReturnReceiptLetter: <mark>Added logic to check if it's EMAIL partner.</mark>
+- ReturnReceiptLetter: Added logic to check if it's EMAIL partner. - Updated 2026-02-26
 - SavedSearchesLetter: Done. No significant update compared to UG's version.
 - <mark>[currently Disabled]</mark>ShortenedDueDateLetter: Done. No significant update compared to UG's version.
 - <mark>[currently Disabled]</mark>SocialLoginInviteLetter: Done. No significant update compared to UG's version.
