@@ -10,6 +10,7 @@
 		<html>
 			<head>
 				<!-- <xsl:call-template name="generalStyle"/> -->
+				<xsl:call-template name="head"/>
 			</head>
 			<body>
 				<xsl:attribute name="style">
@@ -24,13 +25,6 @@
 								<xsl:call-template name="listStyleCss"/>
 								<!-- style.xsl -->
 							</xsl:attribute>
-
-							<tr>
-								<td>
-									<h1><xsl:value-of select="notification_data/patron_name"/></h1>
-								</td>
-							</tr>
-
 							<tr>
 								<td>
 									Pickup at:
@@ -42,14 +36,13 @@
 							<xsl:if test="notification_data/barcode !=''">
 								<tr>
 								  <td>
-								  	<b>@@item_barcode@@: </b> <img src="Barcode.png" alt="Barcode" />
+								  	<b>@@item_barcode@@: </b> <xsl:value-of select="notification_data/barcode"/>
 								  </td>
 								</tr>
 							</xsl:if>
 
 							<tr>
 							  <td>
-							  	<br/>
 							  	<b>@@request_id@@: </b> <xsl:value-of select="notification_data/request/external_request_id"/>
 							  </td>
 				   			</tr>
@@ -74,15 +67,13 @@
 									<xsl:value-of select="notification_data/request/display/author"/>
 								</td>
 							</tr>
-
 						</table>
-
 						<br/><br/>
 
 					</div>
 				</div>
-				<xsl:call-template name="head"/>
-
+				<xsl:call-template name="lastFooter"/>
+				<xsl:call-template name="AFNLetterNameTemplate" />
 			</body>
 		</html>
 	</xsl:template>
